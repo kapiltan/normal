@@ -1,0 +1,65 @@
+{
+    "departments": [
+        {
+            "departmentId": "DEPT-001",
+            "name": "Emergency Department",
+            "specialty": "Emergency Medicine",
+            "availableSlots": 3,
+            "acceptsTriageLevels": [
+                "EMERGENCY",
+                "URGENT"
+            ],
+            "contactExt": "911",
+            "hours": "24/7"
+        },
+        {
+            "departmentId": "DEPT-002",
+            "name": "Cardiology",
+            "specialty": "Cardiovascular",
+            "availableSlots": 1,
+            "acceptsTriageLevels": [
+                "EMERGENCY",
+                "URGENT"
+            ],
+            "contactExt": "204",
+            "hours": "24/7"
+        },
+        {
+            "departmentId": "DEPT-003",
+            "name": "General Practice",
+            "specialty": "Primary Care",
+            "availableSlots": 5,
+            "acceptsTriageLevels": [
+                "STANDARD",
+                "SELF_CARE"
+            ],
+            "contactExt": "101",
+            "hours": "08:00-20:00"
+        },
+        {
+            "departmentId": "DEPT-004",
+            "name": "Pediatrics",
+            "specialty": "Child Health",
+            "availableSlots": 2,
+            "acceptsTriageLevels": [
+                "EMERGENCY",
+                "URGENT",
+                "STANDARD"
+            ],
+            "contactExt": "305",
+            "hours": "24/7"
+        },
+        {
+            "departmentId": "DEPT-005",
+            "name": "Mental Health Unit",
+            "specialty": "Psychiatry & Counselling",
+            "availableSlots": 0,
+            "acceptsTriageLevels": [
+                "URGENT",
+                "STANDARD"
+            ],
+            "contactExt": "408",
+            "hours": "09:00-21:00"
+        }
+    ]
+}
